@@ -1,7 +1,7 @@
 let button = document.querySelector("button");
                                     
 // 1. Declare a variable called `answer` that stores the p tag that has the class name `answer`.
-
+let answer = document.querySelector(".answer");
 
 
 button.addEventListener("click", function() {
@@ -9,7 +9,7 @@ button.addEventListener("click", function() {
 // 3. Uncomment the line of code below, run, and try the button.
 // answer.innerHTML="movie name goes here";
 
-
+answer.innerHTML ="I don't have a favorite movie";
 
 
 
